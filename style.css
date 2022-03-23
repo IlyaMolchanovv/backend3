@@ -1,0 +1,95 @@
+@charset "windows-1251";
+
+@media screen and (min-width: 800px) {
+    nav{
+        width:90%;
+        flex-direction: row;
+    }
+}
+@media screen and (orientation: portrait) {
+    nav{
+        width:100%;
+        flex-direction: column;
+    }
+}
+
+#table {
+    order:2;
+}
+#form{
+    order:1;
+}
+
+.forexample {
+	color:navy;
+	text-align: center; 
+	padding-top: 35px;
+	}
+	
+body {
+    display: flex;
+    flex-direction: column;
+	background-color: #4b5591;
+	margin:0;
+	}
+	
+#logo {
+	float:left; 
+	margin:10px;
+	width:80px; 
+	height:80px;
+	}
+	
+header {
+	background-image: url(Header.jpg);
+    background-size: 100%;
+    display: block;
+    height: 100px;
+    box-shadow: 0px 0px 10px grey;
+    }
+	
+nav{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+	text-align: center;
+	background-color: #ffd49d;
+	list-style-type: none;
+    margin: 0px;
+    padding: 0;
+	box-shadow: 0px 0px 10px grey;
+    }
+	
+.style {
+	color: maroon;
+    font-size: 25px;
+    margin: 0px 1%;
+    text-decoration-line: none;
+    }
+	
+.container {
+	padding-left:20px;
+    width: 700px;
+    margin: 0 auto;
+	background-color: #ffd49d;
+    }
+
+footer {
+    color: #041364;
+	font-size: 25px;
+    background-color: #fd7d03;
+    height: 50px;
+	padding-right: 15px;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: right;
+    font-style: normal;
+    }
+
+.nechet {
+    background-color: orange;
+    }
+
+.chet {
+    background-color: blue;
+    }
